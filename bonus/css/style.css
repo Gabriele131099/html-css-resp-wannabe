@@ -74,10 +74,38 @@ img {
 
 @media all and (max-width: 576px)
 {
+    .row
+    {
+      width: 100%;
+      max-width: 576px;
+    }
+
+    #lezioni , #why
+    {
+      background-color: wheat;
+    }
+
+    #lezioni .left ,
+    #lezioni .central ,
+    #lezioni .right ,
+    #steps .left ,
+    #steps .central ,
+    #steps .right
+    {
+      width: 100%;
+      margin: auto;
+      min-width: 575px;
+      float: none;
+      
+    }
+}
+
+@media all and (min-width:800px) {
+
   .row
   {
     width: 100%;
-    max-width: 576px;
+    max-width: 800px;
   }
 
   #lezioni , #why
@@ -94,8 +122,8 @@ img {
   {
     width: 100%;
     margin: auto;
-    min-width: 575px;
-    float: none;
+    min-width: 800px;
     
   }
+  
 }
