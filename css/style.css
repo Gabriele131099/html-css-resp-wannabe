@@ -71,3 +71,30 @@ img {
 .clear {
   clear: both;
 }
+
+@media all and (max-width: 576px)
+{
+    .row
+    {
+      width: 100%;
+      max-width: 576px;
+      float: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #lezioni , #why
+    {
+      background-color: wheat;
+    }
+
+    #lezioni .left,
+    #lezioni .central,
+    #lezioni .right,
+    #steps .left,
+    #steps .central,
+    #steps .right
+    {
+      margin: auto;
+    }
+}
